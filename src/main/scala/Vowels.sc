@@ -1,4 +1,4 @@
-class Question
+class Vowel
 {var t=0
   def sumOfVowels(): Unit ={
     val str:String="abcde"
@@ -27,6 +27,6 @@ class Question
 
     }
 }
-var obj=new Question()
+var obj=new Vowel()
 obj.sumOfVowels()
 obj.isVowel()

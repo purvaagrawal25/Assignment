@@ -1,4 +1,4 @@
-class Car {
+class VowelOccurence {
   var sum=0
   def sumOfVowels(): Unit = {
     val str: String = "abcde"
@@ -16,5 +16,5 @@ class Car {
     println(sum)
   }
 }
-var obj=new Car()
+var obj=new VowelOccurence()
 obj.sumOfVowels()
